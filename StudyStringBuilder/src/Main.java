@@ -5,8 +5,8 @@ public class Main
 	public static void main(String[] args){
 	
 		StringBuilder sql = new StringBuilder();
-		sql.append ("www.somderaiz.com.br");
-		sql.append("somde1978");
+		sql.append ("www.somderaiz.com.br/\n");
+		sql.append("somde1978/\n");
 		sql.append("vida");
 		System.out.println(sql);
 	}
@@ -16,8 +16,10 @@ public class Main
 	/*
 	SAIDA
 
-	
-www.somderaiz.com.brsomde1978vida
+www.somderaiz.com.br/
+somde1978/
+vida
+
 
 
 	*/
